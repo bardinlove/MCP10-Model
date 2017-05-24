@@ -1,0 +1,10 @@
+classes:
+- cluster.mcp10-cluster.infra.config
+parameters:
+  _param:
+    linux_system_codename: xenial
+    reclass_data_revision: master
+  linux:
+    system:
+      name: cfg01
+      domain: mcp10.mirantislab.local
